@@ -10,6 +10,10 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (nonatomic, strong) IBOutlet NSView   *leftBackgroundView;
+@property (nonatomic, strong) IBOutlet NSView   *rightBackgroundView;
+@property (nonatomic, strong) IBOutlet NSView   *leftView;
+@property (nonatomic, strong) IBOutlet NSView   *rightView;
 
 @end
 
