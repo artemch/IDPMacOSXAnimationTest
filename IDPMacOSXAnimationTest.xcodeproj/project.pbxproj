@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69BA30121A97882A00425004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BA30111A97882A00425004 /* AppDelegate.m */; };
+		69BA30141A97882A00425004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BA30131A97882A00425004 /* main.m */; };
+		69BA30161A97882A00425004 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BA30151A97882A00425004 /* Images.xcassets */; };
+		69BA30191A97882A00425004 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69BA30171A97882A00425004 /* MainMenu.xib */; };
+		69BA30251A97882A00425004 /* IDPMacOSXAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BA30241A97882A00425004 /* IDPMacOSXAnimationTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69BA301F1A97882A00425004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69BA30031A97882900425004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69BA300A1A97882A00425004;
+			remoteInfo = IDPMacOSXAnimationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69BA300B1A97882A00425004 /* IDPMacOSXAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDPMacOSXAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BA300F1A97882A00425004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BA30101A97882A00425004 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69BA30111A97882A00425004 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69BA30131A97882A00425004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69BA30151A97882A00425004 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69BA30181A97882A00425004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		69BA301E1A97882A00425004 /* IDPMacOSXAnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDPMacOSXAnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BA30231A97882A00425004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BA30241A97882A00425004 /* IDPMacOSXAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDPMacOSXAnimationTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69BA30081A97882A00425004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BA301B1A97882A00425004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69BA30021A97882900425004 = {
+			isa = PBXGroup;
+			children = (
+				69BA300D1A97882A00425004 /* IDPMacOSXAnimationTest */,
+				69BA30211A97882A00425004 /* IDPMacOSXAnimationTestTests */,
+				69BA300C1A97882A00425004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69BA300C1A97882A00425004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69BA300B1A97882A00425004 /* IDPMacOSXAnimationTest.app */,
+				69BA301E1A97882A00425004 /* IDPMacOSXAnimationTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69BA300D1A97882A00425004 /* IDPMacOSXAnimationTest */ = {
+			isa = PBXGroup;
+			children = (
+				69BA30101A97882A00425004 /* AppDelegate.h */,
+				69BA30111A97882A00425004 /* AppDelegate.m */,
+				69BA30151A97882A00425004 /* Images.xcassets */,
+				69BA30171A97882A00425004 /* MainMenu.xib */,
+				69BA300E1A97882A00425004 /* Supporting Files */,
+			);
+			path = IDPMacOSXAnimationTest;
+			sourceTree = "<group>";
+		};
+		69BA300E1A97882A00425004 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69BA300F1A97882A00425004 /* Info.plist */,
+				69BA30131A97882A00425004 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69BA30211A97882A00425004 /* IDPMacOSXAnimationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				69BA30241A97882A00425004 /* IDPMacOSXAnimationTestTests.m */,
+				69BA30221A97882A00425004 /* Supporting Files */,
+			);
+			path = IDPMacOSXAnimationTestTests;
+			sourceTree = "<group>";
+		};
+		69BA30221A97882A00425004 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69BA30231A97882A00425004 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69BA300A1A97882A00425004 /* IDPMacOSXAnimationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69BA30281A97882A00425004 /* Build configuration list for PBXNativeTarget "IDPMacOSXAnimationTest" */;
+			buildPhases = (
+				69BA30071A97882A00425004 /* Sources */,
+				69BA30081A97882A00425004 /* Frameworks */,
+				69BA30091A97882A00425004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDPMacOSXAnimationTest;
+			productName = IDPMacOSXAnimationTest;
+			productReference = 69BA300B1A97882A00425004 /* IDPMacOSXAnimationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69BA301D1A97882A00425004 /* IDPMacOSXAnimationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69BA302B1A97882A00425004 /* Build configuration list for PBXNativeTarget "IDPMacOSXAnimationTestTests" */;
+			buildPhases = (
+				69BA301A1A97882A00425004 /* Sources */,
+				69BA301B1A97882A00425004 /* Frameworks */,
+				69BA301C1A97882A00425004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69BA30201A97882A00425004 /* PBXTargetDependency */,
+			);
+			name = IDPMacOSXAnimationTestTests;
+			productName = IDPMacOSXAnimationTestTests;
+			productReference = 69BA301E1A97882A00425004 /* IDPMacOSXAnimationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69BA30031A97882900425004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "IDAP Group";
+				TargetAttributes = {
+					69BA300A1A97882A00425004 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					69BA301D1A97882A00425004 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 69BA300A1A97882A00425004;
+					};
+				};
+			};
+			buildConfigurationList = 69BA30061A97882900425004 /* Build configuration list for PBXProject "IDPMacOSXAnimationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69BA30021A97882900425004;
+			productRefGroup = 69BA300C1A97882A00425004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69BA300A1A97882A00425004 /* IDPMacOSXAnimationTest */,
+				69BA301D1A97882A00425004 /* IDPMacOSXAnimationTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69BA30091A97882A00425004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BA30161A97882A00425004 /* Images.xcassets in Resources */,
+				69BA30191A97882A00425004 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BA301C1A97882A00425004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69BA30071A97882A00425004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BA30141A97882A00425004 /* main.m in Sources */,
+				69BA30121A97882A00425004 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BA301A1A97882A00425004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BA30251A97882A00425004 /* IDPMacOSXAnimationTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69BA30201A97882A00425004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69BA300A1A97882A00425004 /* IDPMacOSXAnimationTest */;
+			targetProxy = 69BA301F1A97882A00425004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69BA30171A97882A00425004 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69BA30181A97882A00425004 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69BA30261A97882A00425004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		69BA30271A97882A00425004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		69BA30291A97882A00425004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IDPMacOSXAnimationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69BA302A1A97882A00425004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IDPMacOSXAnimationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69BA302C1A97882A00425004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IDPMacOSXAnimationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDPMacOSXAnimationTest.app/Contents/MacOS/IDPMacOSXAnimationTest";
+			};
+			name = Debug;
+		};
+		69BA302D1A97882A00425004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IDPMacOSXAnimationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDPMacOSXAnimationTest.app/Contents/MacOS/IDPMacOSXAnimationTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69BA30061A97882900425004 /* Build configuration list for PBXProject "IDPMacOSXAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BA30261A97882A00425004 /* Debug */,
+				69BA30271A97882A00425004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69BA30281A97882A00425004 /* Build configuration list for PBXNativeTarget "IDPMacOSXAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BA30291A97882A00425004 /* Debug */,
+				69BA302A1A97882A00425004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69BA302B1A97882A00425004 /* Build configuration list for PBXNativeTarget "IDPMacOSXAnimationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BA302C1A97882A00425004 /* Debug */,
+				69BA302D1A97882A00425004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69BA30031A97882900425004 /* Project object */;
+}
