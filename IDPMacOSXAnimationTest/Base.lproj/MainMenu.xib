@@ -677,16 +677,16 @@
         <window title="IDPMacOSXAnimationTest" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="885" height="525"/>
+            <rect key="contentRect" x="335" y="390" width="885" height="870"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
-            <value key="minSize" type="size" width="885" height="525"/>
-            <value key="maxSize" type="size" width="885" height="525"/>
+            <value key="minSize" type="size" width="885" height="870"/>
+            <value key="maxSize" type="size" width="885" height="870"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="885" height="525"/>
+                <rect key="frame" x="0.0" y="0.0" width="885" height="870"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tm0-BY-0MO">
-                        <rect key="frame" x="14" y="477" width="82" height="32"/>
+                        <rect key="frame" x="14" y="822" width="82" height="32"/>
                         <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nVv-bG-GpB">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -696,29 +696,29 @@
                         </connections>
                     </button>
                     <customView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n7Q-5Q-6lv">
-                        <rect key="frame" x="20" y="7" width="419" height="395"/>
+                        <rect key="frame" x="20" y="0.0" width="419" height="748"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wFm-lR-XAG">
-                                <rect key="frame" x="127" y="0.0" width="164" height="395"/>
+                                <rect key="frame" x="55" y="0.0" width="309" height="748"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="testImage" id="0Oi-29-O9P"/>
                             </imageView>
                         </subviews>
                     </customView>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XeX-8E-mkd">
-                        <rect key="frame" x="446" y="7" width="419" height="395"/>
+                        <rect key="frame" x="446" y="0.0" width="419" height="748"/>
                         <subviews>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UgN-ZR-Q7M">
-                                <rect key="frame" x="127" y="0.0" width="164" height="395"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="testImage" id="6RF-U3-MFR"/>
-                            </imageView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tXO-uZ-JZ0">
-                                <rect key="frame" x="127" y="-395" width="164" height="395"/>
+                                <rect key="frame" x="55" y="-747" width="309" height="748"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="testImage" id="x44-sa-5JR"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UgN-ZR-Q7M">
+                                <rect key="frame" x="55" y="0.0" width="309" height="748"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="testImage" id="6RF-U3-MFR"/>
                             </imageView>
                         </subviews>
                     </customView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bI6-jC-xHY">
-                        <rect key="frame" x="18" y="410" width="423" height="17"/>
+                        <rect key="frame" x="18" y="755" width="423" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Core animation" id="XAf-Wm-6uN">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -726,7 +726,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="77v-Zu-0xa">
-                        <rect key="frame" x="444" y="410" width="423" height="17"/>
+                        <rect key="frame" x="444" y="755" width="423" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="NSAnimationContext" id="nbG-f8-Bsp">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -734,7 +734,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bvr-Rg-OEF">
-                        <rect key="frame" x="20" y="435" width="96" height="22"/>
+                        <rect key="frame" x="20" y="780" width="96" height="22"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="2" drawsBackground="YES" id="HfU-3D-TX6">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -745,7 +745,7 @@
                         </connections>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n6e-I0-yCt">
-                        <rect key="frame" x="20" y="459" width="98" height="17"/>
+                        <rect key="frame" x="20" y="804" width="98" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Duration, s" id="OBQ-6I-jtV">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -753,7 +753,7 @@
                         </textFieldCell>
                     </textField>
                     <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j0u-Dz-Nd5">
-                        <rect key="frame" x="156" y="434" width="131" height="26"/>
+                        <rect key="frame" x="156" y="779" width="131" height="26"/>
                         <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="4" id="aXq-Kr-QJb">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -767,7 +767,7 @@
                         </comboBoxCell>
                     </comboBox>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eig-Vd-dRP">
-                        <rect key="frame" x="627" y="474" width="82" height="32"/>
+                        <rect key="frame" x="627" y="819" width="82" height="32"/>
                         <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ZNC-Si-3S4">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -777,7 +777,7 @@
                         </connections>
                     </button>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sG9-Pu-Jjh">
-                        <rect key="frame" x="633" y="432" width="96" height="22"/>
+                        <rect key="frame" x="633" y="777" width="96" height="22"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="2" drawsBackground="YES" id="sTC-E8-lMR">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -788,7 +788,7 @@
                         </connections>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jne-5o-e7z">
-                        <rect key="frame" x="633" y="456" width="98" height="17"/>
+                        <rect key="frame" x="633" y="801" width="98" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Duration, s" id="ToY-sa-jxV">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -796,7 +796,7 @@
                         </textFieldCell>
                     </textField>
                     <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BoQ-CG-wYw">
-                        <rect key="frame" x="737" y="431" width="131" height="26"/>
+                        <rect key="frame" x="737" y="776" width="131" height="26"/>
                         <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="4" id="u6h-R9-ODW">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -810,7 +810,7 @@
                         </comboBoxCell>
                     </comboBox>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCX-kl-U9b">
-                        <rect key="frame" x="396" y="477" width="93" height="32"/>
+                        <rect key="frame" x="396" y="822" width="93" height="32"/>
                         <buttonCell key="cell" type="push" title="Start Both" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Os1-L1-Xua">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -821,7 +821,7 @@
                     </button>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="543.5" y="433.5"/>
+            <point key="canvasLocation" x="538.5" y="512"/>
         </window>
         <userDefaultsController representsSharedInstance="YES" id="71E-Nm-XfJ"/>
     </objects>
