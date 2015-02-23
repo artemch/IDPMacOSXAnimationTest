@@ -15,11 +15,12 @@
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
                 <outlet property="leftBackgroundView" destination="n7Q-5Q-6lv" id="feC-ry-fzy"/>
-                <outlet property="leftView" destination="j0J-mi-bNL" id="sHL-9k-2DR"/>
-                <outlet property="leftView2" destination="NqX-9w-Siy" id="Acs-WE-7LD"/>
+                <outlet property="leftComboBox" destination="j0u-Dz-Nd5" id="Kda-Cy-XuY"/>
+                <outlet property="leftView" destination="wFm-lR-XAG" id="l2G-Fp-yI6"/>
                 <outlet property="rightBackgroundView" destination="XeX-8E-mkd" id="2Rj-SV-nuU"/>
-                <outlet property="rightView" destination="giI-P7-XjY" id="wDi-Nd-pU3"/>
-                <outlet property="rightView2" destination="xCw-eL-Tca" id="HJh-MP-fkn"/>
+                <outlet property="rightComboBox" destination="BoQ-CG-wYw" id="FVT-cY-KOW"/>
+                <outlet property="rightView" destination="UgN-ZR-Q7M" id="Kr1-sI-1hr"/>
+                <outlet property="rightView2" destination="tXO-uZ-JZ0" id="ohC-nY-2Mu"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -691,34 +692,33 @@
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="onStart:" target="Voe-Tx-rLC" id="2jg-Te-MZU"/>
+                            <action selector="onStartLeft:" target="Voe-Tx-rLC" id="fGs-vK-i4F"/>
                         </connections>
                     </button>
                     <customView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n7Q-5Q-6lv">
-                        <rect key="frame" x="20" y="33" width="419" height="395"/>
+                        <rect key="frame" x="20" y="7" width="419" height="395"/>
                         <subviews>
-                            <customView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j0J-mi-bNL">
-                                <rect key="frame" x="128" y="0.0" width="163" height="395"/>
-                                <animations/>
-                            </customView>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NqX-9w-Siy">
-                                <rect key="frame" x="128" y="0.0" width="163" height="395"/>
-                            </customView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wFm-lR-XAG">
+                                <rect key="frame" x="127" y="0.0" width="164" height="395"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="testImage" id="0Oi-29-O9P"/>
+                            </imageView>
                         </subviews>
                     </customView>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XeX-8E-mkd">
-                        <rect key="frame" x="446" y="33" width="419" height="395"/>
+                        <rect key="frame" x="446" y="7" width="419" height="395"/>
                         <subviews>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="giI-P7-XjY">
-                                <rect key="frame" x="128" y="0.0" width="163" height="395"/>
-                            </customView>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xCw-eL-Tca">
-                                <rect key="frame" x="128" y="0.0" width="163" height="395"/>
-                            </customView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UgN-ZR-Q7M">
+                                <rect key="frame" x="127" y="0.0" width="164" height="395"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="testImage" id="6RF-U3-MFR"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tXO-uZ-JZ0">
+                                <rect key="frame" x="127" y="-395" width="164" height="395"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="testImage" id="x44-sa-5JR"/>
+                            </imageView>
                         </subviews>
                     </customView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bI6-jC-xHY">
-                        <rect key="frame" x="18" y="436" width="423" height="17"/>
+                        <rect key="frame" x="18" y="410" width="423" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Core animation" id="XAf-Wm-6uN">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -726,26 +726,106 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="77v-Zu-0xa">
-                        <rect key="frame" x="444" y="436" width="423" height="17"/>
+                        <rect key="frame" x="444" y="410" width="423" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="NSAnimationContext" id="nbG-f8-Bsp">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4YN-HV-5EI">
-                        <rect key="frame" x="96" y="477" width="82" height="32"/>
-                        <buttonCell key="cell" type="push" title="Reset" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xng-CJ-e4h">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bvr-Rg-OEF">
+                        <rect key="frame" x="20" y="435" width="96" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="2" drawsBackground="YES" id="HfU-3D-TX6">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <binding destination="Voe-Tx-rLC" name="value" keyPath="leftAnimationDuratiion" id="POf-Xk-UmG"/>
+                        </connections>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n6e-I0-yCt">
+                        <rect key="frame" x="20" y="459" width="98" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Duration, s" id="OBQ-6I-jtV">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j0u-Dz-Nd5">
+                        <rect key="frame" x="156" y="434" width="99" height="26"/>
+                        <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="4" id="aXq-Kr-QJb">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <objectValues>
+                                <string>Linear</string>
+                                <string>EaseIn</string>
+                                <string>EaseOut</string>
+                                <string>EaseInEaseOut</string>
+                            </objectValues>
+                        </comboBoxCell>
+                    </comboBox>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eig-Vd-dRP">
+                        <rect key="frame" x="627" y="474" width="82" height="32"/>
+                        <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ZNC-Si-3S4">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="onReset:" target="Voe-Tx-rLC" id="6TY-Fa-IQ0"/>
+                            <action selector="onStartRight:" target="Voe-Tx-rLC" id="NNm-vs-DTp"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sG9-Pu-Jjh">
+                        <rect key="frame" x="633" y="432" width="96" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="2" drawsBackground="YES" id="sTC-E8-lMR">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <binding destination="Voe-Tx-rLC" name="value" keyPath="self.rightAnimationDuratiion" id="cCP-4h-0ba"/>
+                        </connections>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jne-5o-e7z">
+                        <rect key="frame" x="633" y="456" width="98" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Duration, s" id="ToY-sa-jxV">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BoQ-CG-wYw">
+                        <rect key="frame" x="769" y="431" width="99" height="26"/>
+                        <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="4" id="u6h-R9-ODW">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <objectValues>
+                                <string>Linear</string>
+                                <string>EaseIn</string>
+                                <string>EaseOut</string>
+                                <string>EaseInEaseOut</string>
+                            </objectValues>
+                        </comboBoxCell>
+                    </comboBox>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCX-kl-U9b">
+                        <rect key="frame" x="396" y="477" width="93" height="32"/>
+                        <buttonCell key="cell" type="push" title="Start Both" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Os1-L1-Xua">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="onStart:" target="Voe-Tx-rLC" id="vIN-ej-uZm"/>
                         </connections>
                     </button>
                 </subviews>
             </view>
             <point key="canvasLocation" x="543.5" y="433.5"/>
         </window>
+        <userDefaultsController representsSharedInstance="YES" id="71E-Nm-XfJ"/>
     </objects>
+    <resources>
+        <image name="testImage" width="309" height="748"/>
+    </resources>
 </document>

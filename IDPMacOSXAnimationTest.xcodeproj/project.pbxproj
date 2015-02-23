@@ -12,6 +12,7 @@
 		69BA30161A97882A00425004 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BA30151A97882A00425004 /* Images.xcassets */; };
 		69BA30191A97882A00425004 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69BA30171A97882A00425004 /* MainMenu.xib */; };
 		69BA30251A97882A00425004 /* IDPMacOSXAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BA30241A97882A00425004 /* IDPMacOSXAnimationTestTests.m */; };
+		69BA310B1A9B3CB70064A603 /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BA310A1A9B3CB70064A603 /* testImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		69BA301E1A97882A00425004 /* IDPMacOSXAnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDPMacOSXAnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BA30231A97882A00425004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69BA30241A97882A00425004 /* IDPMacOSXAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDPMacOSXAnimationTestTests.m; sourceTree = "<group>"; };
+		69BA310A1A9B3CB70064A603 /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		69BA300D1A97882A00425004 /* IDPMacOSXAnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				69BA310A1A9B3CB70064A603 /* testImage.png */,
 				69BA30101A97882A00425004 /* AppDelegate.h */,
 				69BA30111A97882A00425004 /* AppDelegate.m */,
 				69BA30151A97882A00425004 /* Images.xcassets */,
@@ -191,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69BA310B1A9B3CB70064A603 /* testImage.png in Resources */,
 				69BA30161A97882A00425004 /* Images.xcassets in Resources */,
 				69BA30191A97882A00425004 /* MainMenu.xib in Resources */,
 			);
@@ -398,6 +402,7 @@
 				69BA302A1A97882A00425004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69BA302B1A97882A00425004 /* Build configuration list for PBXNativeTarget "IDPMacOSXAnimationTestTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +411,7 @@
 				69BA302D1A97882A00425004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,5 +17,11 @@
 @property (nonatomic, strong) IBOutlet NSView   *leftView2;
 @property (nonatomic, strong) IBOutlet NSView   *rightView2;
 
+@property (nonatomic, strong) IBOutlet NSComboBox *leftComboBox;
+@property (nonatomic, strong) IBOutlet NSComboBox *rightComboBox;
+
+@property (nonatomic, assign) CFTimeInterval leftAnimationDuratiion;
+@property (nonatomic, assign) CFTimeInterval rightAnimationDuratiion;
+
 @end
 
