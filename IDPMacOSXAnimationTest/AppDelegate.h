@@ -14,6 +14,8 @@
 @property (nonatomic, strong) IBOutlet NSView   *rightBackgroundView;
 @property (nonatomic, strong) IBOutlet NSView   *leftView;
 @property (nonatomic, strong) IBOutlet NSView   *rightView;
+@property (nonatomic, strong) IBOutlet NSView   *leftView2;
+@property (nonatomic, strong) IBOutlet NSView   *rightView2;
 
 @end
 

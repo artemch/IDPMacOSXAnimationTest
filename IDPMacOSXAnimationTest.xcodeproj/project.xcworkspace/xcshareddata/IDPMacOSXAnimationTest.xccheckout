@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1B30A91E-E4E2-4620-9271-47EA8284563D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IDPMacOSXAnimationTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>666D811E9128ECFA8B52A80DA1E42E0A1BAF1159</key>
+		<string>https://github.com/artemch/IDPMacOSXAnimationTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IDPMacOSXAnimationTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>666D811E9128ECFA8B52A80DA1E42E0A1BAF1159</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/artemch/IDPMacOSXAnimationTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>666D811E9128ECFA8B52A80DA1E42E0A1BAF1159</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>666D811E9128ECFA8B52A80DA1E42E0A1BAF1159</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IDPMacOSXAnimationTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

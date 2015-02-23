@@ -16,8 +16,10 @@
             <connections>
                 <outlet property="leftBackgroundView" destination="n7Q-5Q-6lv" id="feC-ry-fzy"/>
                 <outlet property="leftView" destination="j0J-mi-bNL" id="sHL-9k-2DR"/>
+                <outlet property="leftView2" destination="NqX-9w-Siy" id="Acs-WE-7LD"/>
                 <outlet property="rightBackgroundView" destination="XeX-8E-mkd" id="2Rj-SV-nuU"/>
                 <outlet property="rightView" destination="giI-P7-XjY" id="wDi-Nd-pU3"/>
+                <outlet property="rightView2" destination="xCw-eL-Tca" id="HJh-MP-fkn"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -699,12 +701,18 @@
                                 <rect key="frame" x="128" y="0.0" width="163" height="395"/>
                                 <animations/>
                             </customView>
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NqX-9w-Siy">
+                                <rect key="frame" x="128" y="0.0" width="163" height="395"/>
+                            </customView>
                         </subviews>
                     </customView>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XeX-8E-mkd">
                         <rect key="frame" x="446" y="33" width="419" height="395"/>
                         <subviews>
                             <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="giI-P7-XjY">
+                                <rect key="frame" x="128" y="0.0" width="163" height="395"/>
+                            </customView>
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xCw-eL-Tca">
                                 <rect key="frame" x="128" y="0.0" width="163" height="395"/>
                             </customView>
                         </subviews>
